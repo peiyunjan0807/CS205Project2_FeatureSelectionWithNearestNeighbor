@@ -1,0 +1,117 @@
+Welcome to Bertie Woosters Feature Selection Algorithm.
+Type in the name of the file to test : CS205_small_Data__25.txt
+
+Type the number of the algorithm you want to run.
+    1)  Forward Selection
+    2)  Backward Elimination
+
+2
+
+This dataset has 12 features (not including the class attribute), with 500 instances.
+
+Running nearest neighbor with all 12 features, using "leaving-one-out" evaluation, I get an accuracy of 72.0%
+
+Calculating initial accuracy = 72.0%
+Beginning search.
+    Using feature(s) {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12} accuracy is 74.0%
+    Using feature(s) {1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12} accuracy is 73.4%
+    Using feature(s) {1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12} accuracy is 71.6%
+    Using feature(s) {1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12} accuracy is 73.8%
+    Using feature(s) {1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12} accuracy is 69.2%
+    Using feature(s) {1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12} accuracy is 72.6%
+    Using feature(s) {1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12} accuracy is 73.0%
+    Using feature(s) {1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12} accuracy is 71.6%
+    Using feature(s) {1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12} accuracy is 71.8%
+    Using feature(s) {1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12} accuracy is 74.2%
+    Using feature(s) {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12} accuracy is 72.0%
+    Using feature(s) {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11} accuracy is 69.8%
+Feature set {1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12} was best, accuracy is 74.2%
+
+    Using feature(s) {2, 3, 4, 5, 6, 7, 8, 9, 11, 12} accuracy is 74.8%
+    Using feature(s) {1, 3, 4, 5, 6, 7, 8, 9, 11, 12} accuracy is 73.2%
+    Using feature(s) {1, 2, 4, 5, 6, 7, 8, 9, 11, 12} accuracy is 71.6%
+    Using feature(s) {1, 2, 3, 5, 6, 7, 8, 9, 11, 12} accuracy is 76.0%
+    Using feature(s) {1, 2, 3, 4, 6, 7, 8, 9, 11, 12} accuracy is 73.0%
+    Using feature(s) {1, 2, 3, 4, 5, 7, 8, 9, 11, 12} accuracy is 75.0%
+    Using feature(s) {1, 2, 3, 4, 5, 6, 8, 9, 11, 12} accuracy is 74.4%
+    Using feature(s) {1, 2, 3, 4, 5, 6, 7, 9, 11, 12} accuracy is 75.4%
+    Using feature(s) {1, 2, 3, 4, 5, 6, 7, 8, 11, 12} accuracy is 76.0%
+    Using feature(s) {1, 2, 3, 4, 5, 6, 7, 8, 9, 12} accuracy is 74.6%
+    Using feature(s) {1, 2, 3, 4, 5, 6, 7, 8, 9, 11} accuracy is 73.2%
+Feature set {1, 2, 3, 5, 6, 7, 8, 9, 11, 12} was best, accuracy is 76.0%
+
+    Using feature(s) {2, 3, 5, 6, 7, 8, 9, 11, 12} accuracy is 77.4%
+    Using feature(s) {1, 3, 5, 6, 7, 8, 9, 11, 12} accuracy is 76.2%
+    Using feature(s) {1, 2, 5, 6, 7, 8, 9, 11, 12} accuracy is 72.8%
+    Using feature(s) {1, 2, 3, 6, 7, 8, 9, 11, 12} accuracy is 69.6%
+    Using feature(s) {1, 2, 3, 5, 7, 8, 9, 11, 12} accuracy is 75.8%
+    Using feature(s) {1, 2, 3, 5, 6, 8, 9, 11, 12} accuracy is 76.6%
+    Using feature(s) {1, 2, 3, 5, 6, 7, 9, 11, 12} accuracy is 75.2%
+    Using feature(s) {1, 2, 3, 5, 6, 7, 8, 11, 12} accuracy is 78.4%
+    Using feature(s) {1, 2, 3, 5, 6, 7, 8, 9, 12} accuracy is 76.8%
+    Using feature(s) {1, 2, 3, 5, 6, 7, 8, 9, 11} accuracy is 75.6%
+Feature set {1, 2, 3, 5, 6, 7, 8, 11, 12} was best, accuracy is 78.4%
+
+    Using feature(s) {2, 3, 5, 6, 7, 8, 11, 12} accuracy is 80.4%
+    Using feature(s) {1, 3, 5, 6, 7, 8, 11, 12} accuracy is 79.0%
+    Using feature(s) {1, 2, 5, 6, 7, 8, 11, 12} accuracy is 76.2%
+    Using feature(s) {1, 2, 3, 6, 7, 8, 11, 12} accuracy is 72.8%
+    Using feature(s) {1, 2, 3, 5, 7, 8, 11, 12} accuracy is 78.2%
+    Using feature(s) {1, 2, 3, 5, 6, 8, 11, 12} accuracy is 80.0%
+    Using feature(s) {1, 2, 3, 5, 6, 7, 11, 12} accuracy is 78.6%
+    Using feature(s) {1, 2, 3, 5, 6, 7, 8, 12} accuracy is 78.8%
+    Using feature(s) {1, 2, 3, 5, 6, 7, 8, 11} accuracy is 77.4%
+Feature set {2, 3, 5, 6, 7, 8, 11, 12} was best, accuracy is 80.4%
+
+    Using feature(s) {3, 5, 6, 7, 8, 11, 12} accuracy is 80.4%
+    Using feature(s) {2, 5, 6, 7, 8, 11, 12} accuracy is 76.6%
+    Using feature(s) {2, 3, 6, 7, 8, 11, 12} accuracy is 74.6%
+    Using feature(s) {2, 3, 5, 7, 8, 11, 12} accuracy is 82.6%
+    Using feature(s) {2, 3, 5, 6, 8, 11, 12} accuracy is 81.0%
+    Using feature(s) {2, 3, 5, 6, 7, 11, 12} accuracy is 79.0%
+    Using feature(s) {2, 3, 5, 6, 7, 8, 12} accuracy is 79.8%
+    Using feature(s) {2, 3, 5, 6, 7, 8, 11} accuracy is 78.6%
+Feature set {2, 3, 5, 7, 8, 11, 12} was best, accuracy is 82.6%
+
+    Using feature(s) {3, 5, 7, 8, 11, 12} accuracy is 81.8%
+    Using feature(s) {2, 5, 7, 8, 11, 12} accuracy is 79.2%
+    Using feature(s) {2, 3, 7, 8, 11, 12} accuracy is 72.4%
+    Using feature(s) {2, 3, 5, 8, 11, 12} accuracy is 82.6%
+    Using feature(s) {2, 3, 5, 7, 11, 12} accuracy is 83.8%
+    Using feature(s) {2, 3, 5, 7, 8, 12} accuracy is 85.0%
+    Using feature(s) {2, 3, 5, 7, 8, 11} accuracy is 82.8%
+Feature set {2, 3, 5, 7, 8, 12} was best, accuracy is 85.0%
+
+    Using feature(s) {3, 5, 7, 8, 12} accuracy is 86.0%
+    Using feature(s) {2, 5, 7, 8, 12} accuracy is 78.6%
+    Using feature(s) {2, 3, 7, 8, 12} accuracy is 76.4%
+    Using feature(s) {2, 3, 5, 8, 12} accuracy is 85.6%
+    Using feature(s) {2, 3, 5, 7, 12} accuracy is 84.4%
+    Using feature(s) {2, 3, 5, 7, 8} accuracy is 85.2%
+Feature set {3, 5, 7, 8, 12} was best, accuracy is 86.0%
+
+    Using feature(s) {5, 7, 8, 12} accuracy is 78.0%
+    Using feature(s) {3, 7, 8, 12} accuracy is 72.6%
+    Using feature(s) {3, 5, 8, 12} accuracy is 87.6%
+    Using feature(s) {3, 5, 7, 12} accuracy is 89.4%
+    Using feature(s) {3, 5, 7, 8} accuracy is 89.4%
+Feature set {3, 5, 7, 12} was best, accuracy is 89.4%
+
+    Using feature(s) {5, 7, 12} accuracy is 82.8%
+    Using feature(s) {3, 7, 12} accuracy is 71.0%
+    Using feature(s) {3, 5, 12} accuracy is 91.2%
+    Using feature(s) {3, 5, 7} accuracy is 91.8%
+Feature set {3, 5, 7} was best, accuracy is 91.8%
+
+    Using feature(s) {5, 7} accuracy is 84.6%
+    Using feature(s) {3, 7} accuracy is 73.4%
+    Using feature(s) {3, 5} accuracy is 94.4%
+Feature set {3, 5} was best, accuracy is 94.4%
+
+    Using feature(s) {5} accuracy is 83.0%
+    Using feature(s) {3} accuracy is 74.4%
+(WARNING, Accuracy has decreased! Continuing search in case of local maxia)
+Feature set {5} was best, accuracy is 83.0%
+
+Finished search!! The best feature subset is {3, 5}, which has accuracy of 94.4%
+Program ended with exit code: 0
