@@ -1,4 +1,4 @@
-//#include <bits/stdc++.h>
+#include <bits/stdc++.h>
 #pragma once
 #include <vector>
 #include <string>
@@ -90,7 +90,7 @@ project(const vector<vector<double>>& x, const FeatSet& feats){
     vector<vector<double>> sub(x.size(), vector<double>(feats.size()));
     for(size_t i=0; i<x.size(); i++){
         for(size_t j=0; j<feats.size(); j++){
-            sub[i][j]=x[i][feats[j]-1];      // feats 為 1-based
+            sub[i][j]=x[i][feats[j]-1]; 
         }
     }
     return sub;
